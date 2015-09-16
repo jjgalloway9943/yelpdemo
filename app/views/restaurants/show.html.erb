@@ -25,6 +25,13 @@
 		  <%= link_to @restaurant.website, @restaurant.website %>
 		</p>
 
+		<br/>
+		<br/>
+
+		<iframe width="180" 
+				height="180" frameborder="0" style="border:0"
+				src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAASIZRnBppYvzHxhJe0XtLxyl8juOUzoU&q=<%= @restaurant.address.parameterize %> &zoom=14" >
+		</iframe>
 		 
 	</div>
 
